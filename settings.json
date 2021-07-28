@@ -68,7 +68,9 @@
     "tab.activeBackground": "#D6C2C223",
     "sideBar.border": "#3B3C40",
     "terminal.background": "#1E1F27",
-    "terminal.foreground": "#DDDDDD"
+    "terminal.foreground": "#DDDDDD",
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#135564"
   },
   "workbench.editor.labelFormat": "default",
   "workbench.editor.showIcons": true,
