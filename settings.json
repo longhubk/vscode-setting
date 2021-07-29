@@ -70,7 +70,9 @@
     "terminal.background": "#1E1F27",
     "terminal.foreground": "#DDDDDD",
     "editor.selectionBackground": "#135564",
-    "editor.selectionHighlightBackground": "#135564"
+    "editor.selectionHighlightBackground": "#135564",
+    "editor.wordHighlightBorder": "#DDDD00",
+    "editor.wordHighlightStrongBorder": "#00DD00"
   },
   "workbench.editor.labelFormat": "default",
   "workbench.editor.showIcons": true,
