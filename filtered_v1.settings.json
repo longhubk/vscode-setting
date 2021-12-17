@@ -1,4 +1,5 @@
 {
+  //------------------------------FILE--------------------------------
   "explorer.confirmDelete": false, // true
   // "debug.allowBreakpointsEverywhere": true, // false
   // "output.smartScroll.enabled": true, // true
@@ -6,7 +7,7 @@
   "files.eol": "\r\n", // auto
   "files.autoSave": "off", // off
   // "files.autoSaveDelay": 30000, // 1000
-  "files.enableTrash": true,
+  // "files.enableTrash": true, // true
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -20,6 +21,7 @@
     "**/android/**": true,
     "**/ios/**": true
   },
+
   "search.exclude": {
     "**/package.json": true,
     "**/package-lock.json": true,
@@ -29,6 +31,7 @@
   // "search.searchOnType": true, // true
 	"search.sortOrder": "type",
 
+  //------------------------------EDITOR--------------------------------
   // "editor.fontFamily": "consolas",
   "editor.renderWhitespace": "all",
   // "editor.accessibilityPageSize": 8,
@@ -56,7 +59,15 @@
   "editor.rulers": [100],
   "editor.accessibilitySupport": "off", // auto
   "editor.suggestFontSize": 14, // 18
+  "[html]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
+  "diffEditor.ignoreTrimWhitespace": false, // true
+  "prettier.printWidth": 100, // 80
+
+  //------------------------------WORKBENCH--------------------------------
   "workbench.commandPalette.history": 5, // 50
   "workbench.commandPalette.preserveInput": true, // false
   "workbench.editor.highlightModifiedTabs": true, // false
@@ -99,7 +110,9 @@
   "workbench.enableExperiments": false, // true
   "workbench.settings.enableNaturalLanguageSearch": false, // true
   // "workbench.view.experimental.allowMovingToNewContainer": true,
+  "workbench.colorTheme": "Monokai Dark Vibrant", // Default Dark+
 
+  //------------------------------WINDOWN--------------------------------
   // "window.titleBarStyle": "native", // mother f*cker
   "window.titleBarStyle": "custom", // nice
   // "window.closeWhenEmpty": false, // false
@@ -109,6 +122,7 @@
   "window.openFoldersInNewWindow": "on", // off
   "window.title": "${dirty}${activeEditorShort}${separator}${activeEditorLong}${separator}${rootPath}",
 
+  //------------------------------TERMINAL--------------------------------
   "terminal.integrated.cursorWidth": 3, // 1
   // "terminal.integrated.fontSize": 14, // 14
   // "terminal.integrated.fontWeight": "100", //normal
@@ -119,6 +133,8 @@
   // "terminal.integrated.lineHeight": 0, // 1
   "terminal.integrated.confirmOnExit": "always", // never
   // "terminal.integrated.copyOnSelection": false, // false
+
+  //------------------------------EXTENSION--------------------------------
   "vim.handleKeys": {
     "<C-f>": false
   },
@@ -138,8 +154,7 @@
       "after": ["%"]
     }
   ],
-  "update.mode": "none", // default
-  "update.showReleaseNotes": false, // true
+
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
@@ -173,39 +188,40 @@
     "wfile",
     "wifi"
   ],
+
   "path-intellisense.autoSlashAfterDirectory": true, // false
   "path-intellisense.extensionOnImport": true, // false
   "path-intellisense.showHiddenFiles": true, // false
-
-  // "javascript.validate.enable": true, // true
-  "javascript.updateImportsOnFileMove.enabled": "always", // prompt
-
-  // "typescript.disableAutomaticTypeAcquisition": true, // false
-  "typescript.updateImportsOnFileMove.enabled": "always", // prompt
 
   "gitlens.advanced.messages": {
     "suppressCreatePullRequestPrompt": true,
     "suppressGitDisabledWarning": true,
     "suppressLineUncommittedWarning": true
   },
+
   "linesinfostatusbar.alignment": "right",
   "linesinfostatusbar.totalDisplayFormat": "Lines: %d",
   "linesinfostatusbar.selectedDisplayFormat": " (%d)",
 
+  "eslint.workingDirectories": ["./src"],
+
+  "bracketPairColorizer.depreciation-notice": false, // true
+
   "extensions.autoUpdate": false, // true
   "extensions.ignoreRecommendations": true, // false
   "extensions.autoCheckUpdates": false, // true
+
+  //------------------------------LANGUAGE--------------------------------
+  // "javascript.validate.enable": true, // true
+  "javascript.updateImportsOnFileMove.enabled": "always", // prompt
+  // "typescript.disableAutomaticTypeAcquisition": true, // false
+  "typescript.updateImportsOnFileMove.enabled": "always", // prompt
+  "json.maxItemsComputed": 100000, // 5000
+
+  //------------------------------OTHER--------------------------------
   "telemetry.telemetryLevel": "off",
   // "settingsSync.ignoredExtensions": [],
-  "json.maxItemsComputed": 100000, // 5000
-  "eslint.workingDirectories": ["./src"],
-  "diffEditor.ignoreTrimWhitespace": false, // true
   "security.workspace.trust.enabled": false, // true
-  "[html]": {
-    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.printWidth": 100, // 80
-  "workbench.colorTheme": "Monokai Dark Vibrant", // Default Dark+
-  "bracketPairColorizer.depreciation-notice": false
+  "update.mode": "none", // default
+  "update.showReleaseNotes": false, // true
 }
