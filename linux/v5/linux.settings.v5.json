@@ -53,6 +53,7 @@
     "minimap.findMatchHighlight": "#bd93f9", //#f0f
     "minimapSlider.background": "#D6C2C223",
     "editorLineNumber.activeForeground": "#50fa7b", //#CCCCCC
+    "editorLineNumber.foreground": "#888",
     "statusBar.border": "#3B3C40",
     "statusBar.foreground": "#bd93f9",
     // "statusBar.background": "#282a36",
@@ -67,7 +68,10 @@
     "sideBar.border": "#3B3C40",
     "sideBarTitle.foreground": "#ff79c6",
     "sideBar.foreground": "#f8f8f2",
+    "sideBarSectionHeader.foreground": "#bd93f9",
     // "sideBar.background": "#282a36",
+    "activityBar.foreground": "#50fa7b",
+    "activityBar.inactiveForeground": "#f8f8f2",
     "icon.foreground": "#f1fa8c",
     "breadcrumb.foreground": "#50fa7b", //#0f0
     "terminal.background": "#1E1F27",
@@ -84,7 +88,10 @@
     "editorBracketHighlight.foreground5": "#8be9fd",
     "editorBracketHighlight.foreground6": "#ff79c6",
     "editorError.foreground": "#ff5555",
-    "editorWarning.foreground": "#f1fa8c"
+    "editorWarning.foreground": "#f1fa8c",
+    "tree.indentGuidesStroke": "#50fa7b",
+    "button.background": "#bd93f9",
+    "button.foreground": "#f1fa8c"
   },
   "workbench.preferredDarkColorTheme": "Monokai Dark Vibrant",
   "workbench.colorTheme": "Monokai Dark Vibrant",
@@ -237,5 +244,6 @@
     "editor.defaultFormatter": "Vue.volar"
   },
   "git.openRepositoryInParentFolders": "never",
+  "google-translate.firstLanguage": "en-cn",
   "workbench.activityBar.visible": false
 }
