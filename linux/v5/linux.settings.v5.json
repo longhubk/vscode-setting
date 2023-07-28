@@ -42,36 +42,49 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#FF2D00",
-    "panelTitle.activeBorder": "#FFFF00",
-    "panelTitle.activeForeground": "#FFFF00",
+    "editorRuler.foreground": "#ff5555", // "#FF2D00",
+    "panelTitle.activeBorder": "#f1fa8c", // "#FFFF00",
+    "panelTitle.activeForeground": "#f1fa8c",
     "panelTitle.inactiveForeground": "#CCCCCC",
-    "minimap.selectionHighlight": "#00FF00",
-    "minimap.errorHighlight": "#FF0000",
-    "minimap.warningHighlight": "#FFFF00",
+    "minimap.selectionHighlight": "#50fa7b",
+    "minimap.errorHighlight": "#ff5555",
+    "minimap.warningHighlight": "#f1fa8c",
     "minimap.background": "#1E1F27",
-    "minimap.findMatchHighlight": "#f0f",
+    "minimap.findMatchHighlight": "#bd93f9", //#f0f
     "minimapSlider.background": "#D6C2C223",
-    "editorLineNumber.activeForeground": "#0f0", //#CCCCCC
+    "editorLineNumber.activeForeground": "#50fa7b", //#CCCCCC
     "statusBar.border": "#3B3C40",
-    "statusBar.foreground": "#FFFF00",
+    "statusBar.foreground": "#bd93f9",
+    // "statusBar.background": "#282a36",
     "tab.activeBackground": "#D6C2C223",
-    "tab.activeBorder": "#ff0000",
+    "tab.activeBorder": "#ff5555",
     "tab.activeBorderTop": "#3B3C40",
-    "tab.activeModifiedBorder": "#0f0",
-    "titleBar.activeForeground": "#DDDD00",
-    "titleBar.inactiveForeground": "#990",
+    "tab.activeModifiedBorder": "#50fa7b",
+    "titleBar.activeForeground": "#f1fa8c",
+    "titleBar.inactiveForeground": "#6272a4", //#990
     "titleBar.border": "#3B3C40",
+    // "titleBar.activeBackground": "#282a36",
     "sideBar.border": "#3B3C40",
-    "icon.foreground": "#FFFF00",
-    "breadcrumb.foreground": "#0f0",
+    "sideBarTitle.foreground": "#ff79c6",
+    "sideBar.foreground": "#f8f8f2",
+    // "sideBar.background": "#282a36",
+    "icon.foreground": "#f1fa8c",
+    "breadcrumb.foreground": "#50fa7b", //#0f0
     "terminal.background": "#1E1F27",
     "terminal.foreground": "#DDDDDD",
-    "terminalCursor.foreground": "#0f0",
+    "terminalCursor.foreground": "#50fa7b",
     "editor.selectionBackground": "#135564",
     "editor.selectionHighlightBackground": "#135564",
-    "editor.wordHighlightBorder": "#DDDD00",
-    "editor.wordHighlightStrongBorder": "#00DD00"
+    "editor.wordHighlightBorder": "#f1fa8c",
+    "editor.wordHighlightStrongBorder": "#50fa7b", //"#00DD00"
+    "editorBracketHighlight.foreground1": "#ff5555",
+    "editorBracketHighlight.foreground2": "#bd93f9",
+    "editorBracketHighlight.foreground3": "#f1fa8c",
+    "editorBracketHighlight.foreground4": "#50fa7b",
+    "editorBracketHighlight.foreground5": "#8be9fd",
+    "editorBracketHighlight.foreground6": "#ff79c6",
+    "editorError.foreground": "#ff5555",
+    "editorWarning.foreground": "#f1fa8c"
   },
   "workbench.preferredDarkColorTheme": "Monokai Dark Vibrant",
   "workbench.colorTheme": "Monokai Dark Vibrant",
@@ -177,10 +190,11 @@
   },
   "window.menuBarVisibility": "compact",
   "editor.copyWithSyntaxHighlighting": false,
-  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairs": true, // good
   "editor.scrollbar.verticalScrollbarSize": 12,
   "editor.scrollbar.horizontalScrollbarSize": 8,
   "editor.selectionClipboard": false,
+  "gitlens.showWelcomeOnInstall": false,
   "gitlens.views.repositories.includeWorkingTree": true,
   "gitlens.views.repositories.showIncomingActivity": true,
   "gitlens.views.contributors.showAllBranches": true,
@@ -216,12 +230,12 @@
   "vim.foldfix": true,
   "gotoNextPreviousMember.symbolKinds": ["method"],
   "workbench.editor.untitled.hint": "hidden",
-  "workbench.activityBar.visible": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.activityBar.visible": false
 }
